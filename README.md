@@ -41,29 +41,29 @@ s.n. dasgupta
 ```
 ### Display the content of the files
 cat < file1
+## OUTPUT
+<img width="420" height="116" alt="image" src="https://github.com/user-attachments/assets/7b9151a5-9ba4-4eb4-a6ce-ee56deeb7a69" />
+
+
 
 cat < file2
 ## OUTPUT
-![Screenshot from 2024-02-28 10-37-09](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/c1ba6100-5b12-483a-8253-6ba238f3bb0e)
-
+<img width="452" height="183" alt="image" src="https://github.com/user-attachments/assets/3257d706-fbe7-4dbd-aa58-5b5c598906cd" />
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- ![Screenshot from 2024-02-28 10-36-33](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/c3b1ff0d-5bfc-4b7f-bbe4-fec0806e7f00)
-
-
+<img width="513" height="60" alt="image" src="https://github.com/user-attachments/assets/9b754b2a-b5a2-4596-8203-8fd4f68ea0f3" />
+ 
 comm file1 file2
  ## OUTPUT
- 
-![Screenshot from 2024-02-28 10-33-45](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/9a609bee-f64b-4e48-9ce5-789bc4c4bcda)
+<img width="496" height="281" alt="image" src="https://github.com/user-attachments/assets/ff96f8da-bea6-4b6d-a641-36775446f3ef" />
 
  
 diff file1 file2
 ## OUTPUT
-![image-3](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/0a4f1844-e9cf-4b27-8969-da9bdb7d811e)
-
+<img width="572" height="355" alt="image" src="https://github.com/user-attachments/assets/9f92b7a0-7fde-4e0e-8872-c63cc95d45e9" />
 
 
 #Filters
@@ -85,25 +85,23 @@ cat > file22
 ```
 
 
-cut -c1-2 file11
+cut -c1-3 file11
 ## OUTPUT
+<img width="463" height="112" alt="image" src="https://github.com/user-attachments/assets/7e5477f5-d41d-449c-9cd7-bb0ba7d85170" />
 
 
-![image-4](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/054b4738-2b66-4b75-b51a-b77b2aec457e)
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+<img width="525" height="137" alt="image" src="https://github.com/user-attachments/assets/b776568d-d625-4bdf-9670-4e00f37aa228" />
 
-
-![image-5](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/40538a1d-6580-4cd3-b83d-5a58905a1bcf)
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+<img width="521" height="132" alt="image" src="https://github.com/user-attachments/assets/471c1800-25b3-434f-9c24-300ae4004e55" />
 
-
-![image-6](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/92e8be5b-2b6d-4c3e-9a64-ec167833686b)
 
 cat < newfile 
 ```
@@ -117,43 +115,46 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
+<img width="522" height="70" alt="image" src="https://github.com/user-attachments/assets/1cd86e12-4a42-4160-b1f4-ac0041c932b8" />
 
-![image-7](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/6f79bbfc-d604-49a9-aa4a-f5d91ee74b9b)
+
 
 grep hello newfile 
 ## OUTPUT
+<img width="517" height="71" alt="image" src="https://github.com/user-attachments/assets/a4af7aa1-7cee-49bd-8f5f-3f07ac38912c" />
 
 
-![image-8](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/8498fad6-ba0d-417e-a154-d86f00a74372)
 
 
 grep -v hello newfile 
 ## OUTPUT
+<img width="530" height="82" alt="image" src="https://github.com/user-attachments/assets/a585caa0-069b-4c45-adb7-679787293432" />
 
-![image-9](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/e977cd71-988a-47e7-b0fe-f1568a2a076d)
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
+<img width="667" height="98" alt="image" src="https://github.com/user-attachments/assets/75039795-dea8-4bc3-9bb8-e10891dcde67" />
 
-![image-10](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/2245e6f9-ec95-4320-8d1d-8da0360415f8)
+
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
+<img width="687" height="68" alt="image" src="https://github.com/user-attachments/assets/aaa72c39-1ea8-4e18-b9f6-41b349a6605a" />
 
-![image-11](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/6cd41f15-7c39-4e56-9bb5-7e57f6ca44f6)
+
 
 
 grep -R ubuntu /etc
 ## OUTPUT
+<img width="777" height="245" alt="image" src="https://github.com/user-attachments/assets/b13b1365-8f04-4822-95bd-fde36e41eca0" />
 
-![image-12](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/e5ce476b-af10-4403-a1b6-884824aafb39)
 
 
 grep -w -n world newfile   
 ## OUTPUT
-![image-13](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/9d702bdf-f5b3-4cf6-8c16-75cb617b988b)
+<img width="697" height="91" alt="image" src="https://github.com/user-attachments/assets/7140deb3-2a37-4c1c-b6b1-e5989ff0b436" />
 
 
 cat < newfile 
@@ -177,71 +178,71 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+<img width="750" height="97" alt="image" src="https://github.com/user-attachments/assets/9f13b8bf-482a-4911-93bf-b10c3fd028c6" />
 
-![image-14](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/a6575eab-2111-47c6-a867-32920c29f042)
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
-![image-15](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/54c28f0f-0fd7-4334-a441-53faca2c20c0)
+<img width="722" height="97" alt="image" src="https://github.com/user-attachments/assets/fe21074f-fa54-43c6-bcac-8154bdf03cd1" />
+
+
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
-![image-16](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/2b634ac3-eae4-4e48-9afa-2488b7a6cc80)
+<img width="741" height="100" alt="image" src="https://github.com/user-attachments/assets/f330b551-cae4-4ffe-b3eb-1183ef64527f" />
 
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
-![image-17](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/2152e2b4-b1b3-46b8-b677-eb338589c175)
+<img width="705" height="80" alt="image" src="https://github.com/user-attachments/assets/9a79c306-a0db-4f68-85c1-55750b6610f1" />
+
+
 
 egrep '(world$)' newfile 
 ## OUTPUT
-![image-18](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/7facd439-94d3-4e5e-adb2-853ad1bd6bc7)
+<img width="658" height="73" alt="image" src="https://github.com/user-attachments/assets/488cd677-6375-4601-894a-ce549c1e82c5" />
 
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
-
-![image-19](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/40aa135b-3fa1-46aa-8253-6a703f7b48d5)
+<img width="833" height="72" alt="image" src="https://github.com/user-attachments/assets/1b72b651-c844-483b-98ef-370540d021b0" />
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
+<img width="673" height="93" alt="image" src="https://github.com/user-attachments/assets/9f325aa1-2dec-4730-b38f-75f907ee9bfa" />
 
-![image-20](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/62209b33-310f-4386-aea3-d142a5c0810c)
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
+<img width="707" height="71" alt="image" src="https://github.com/user-attachments/assets/da6a3651-4ebd-447e-8ad5-5080b532cced" />
 
-![image-21](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/0152c2fe-457b-4690-849a-f57756272f93)
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
-
-![image-22](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/60e8c4d1-ad89-41c6-bc59-29a898615219)
+<img width="725" height="75" alt="image" src="https://github.com/user-attachments/assets/8f2b13c8-2a35-4b0f-92da-5b9a6a7f058b" />
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
-
-![image-23](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/fcf5b29f-3e8e-486f-8c97-cbc0e84d45d8)
+<img width="667" height="65" alt="image" src="https://github.com/user-attachments/assets/4ce97986-2ba6-4cc6-9399-76de8d14fa0b" />
 
 
 egrep l{2} newfile
 ## OUTPUT
+<img width="775" height="100" alt="image" src="https://github.com/user-attachments/assets/5ea22950-46aa-4e5f-9b04-a4aaacbdb9fe" />
 
-![image-24](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/57fd296b-8124-46f5-809f-d604bf3f32a5)
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
-
-![image-25](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/fd083fc1-9048-4442-9046-7b53de83095c)
+<img width="766" height="129" alt="image" src="https://github.com/user-attachments/assets/6c76b47c-82ce-4943-8ddd-c90163004072" />
 
 
 cat > file23
@@ -260,98 +261,95 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
+<img width="536" height="61" alt="image" src="https://github.com/user-attachments/assets/390a977b-b2e8-4c6a-9e4a-8fb85592767a" />
 
-![image-26](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/d9bd46cd-fdb6-4c13-844b-0a4ffedf951e)
 
 
 sed -n -e '$p' file23
 ## OUTPUT
+<img width="552" height="62" alt="image" src="https://github.com/user-attachments/assets/649bc1b5-7136-457c-a3f3-5f7655808fd0" />
 
-![image-27](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/f60eb1ea-a356-4a14-af2c-69503d475b02)
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
-
-![image-28](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/3cce3526-d915-4693-a14a-80f4a88aabfc)
+<img width="592" height="270" alt="image" src="https://github.com/user-attachments/assets/f5af7909-0f27-448b-b31b-92d06a3caab4" />
 
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
-![image-29](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/29de2ae9-3534-41c6-b584-4fd63ea15230)
+<img width="603" height="281" alt="image" src="https://github.com/user-attachments/assets/924530d4-dc37-4138-84f0-899b7ebd4c6d" />
 
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
+<img width="667" height="287" alt="image" src="https://github.com/user-attachments/assets/f6c494a5-32d7-4da9-906d-38ac2946b7e6" />
 
-![image-30](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/27ff55dd-f7a8-4934-9234-af87f38063e4)
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
+<img width="667" height="190" alt="image" src="https://github.com/user-attachments/assets/cc857af3-d4cc-47d3-9166-1e88bb83b0f1" />
 
-![image-31](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/b72812ad-2031-4998-834f-d1aa4e7d6570)
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
-![image-32](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/481af551-915d-4ee4-affb-2528903d3535)
+<img width="612" height="128" alt="image" src="https://github.com/user-attachments/assets/f830cb9f-e8fc-442f-bde8-30bf971e4320" />
 
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
-![image-33](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/c4ce50db-b01c-48f0-b022-b0fdc8c46639)
+<img width="661" height="93" alt="image" src="https://github.com/user-attachments/assets/f9ed6af0-7319-48d3-a8f0-7cef305febe6" />
+
+
 
 seq 10 
 ## OUTPUT
-![image-34](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/2e43f350-47fe-4f4f-b559-a5145bac13c6)
+<img width="666" height="338" alt="image" src="https://github.com/user-attachments/assets/60e46bb8-8637-4b31-970f-75562f1419a3" />
+
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
-![image-35](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/334cef52-f8dd-40f8-b811-edac5bfae54f)
+<img width="655" height="132" alt="image" src="https://github.com/user-attachments/assets/72842a06-46a7-4502-a969-f5940b8de166" />
+
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
+<img width="602" height="122" alt="image" src="https://github.com/user-attachments/assets/d171c3c4-a3cf-4649-a539-302fa998b627" />
 
-![image-36](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/470d9aef-0a7d-4c6b-b67e-9442df4ad226)
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
-
-![image-37](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/beeb13d9-d0c1-4784-a4f5-5fe355900534)
+<img width="661" height="123" alt="image" src="https://github.com/user-attachments/assets/405e28d3-805d-4222-9045-3202fdbd02f0" />
 
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
-
-![image-38](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/8ae6ab60-f3ff-4190-a885-c2c5921e998f)
+<img width="617" height="147" alt="image" src="https://github.com/user-attachments/assets/8b360795-6614-4dc9-9e8f-3dfeb17358ba" />
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
-
-![image-39](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/2a305976-182e-4c36-b54a-914fec39158b)
+<img width="601" height="126" alt="image" src="https://github.com/user-attachments/assets/dd565ab6-28cc-40c6-acaf-08639a3cc260" />
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
-
-![image-40](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/6a5520ed-5568-4a42-9647-6277d1b393a6)
+<img width="652" height="117" alt="image" src="https://github.com/user-attachments/assets/1688a7fc-86f8-48db-b5ea-ac81590842ab" />
 
 
 
 sed -n '2,4{s/$/*/;p}' file23
-## OUTPUT
 
-![image-41](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/03038fff-d49a-4d7c-b043-130d202e2c08)
 
 #Sorting File content
 cat > file21
@@ -364,8 +362,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-
-![image-42](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/b5c9289b-32c1-48ae-a0bd-e0c8be1193a8)
+<img width="230" height="108" alt="image" src="https://github.com/user-attachments/assets/abcd99c7-b237-4698-8b53-1ce275a3f3cb" />
 
 
 cat > file22
@@ -379,16 +376,15 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+<img width="242" height="98" alt="image" src="https://github.com/user-attachments/assets/b091cc67-d9a5-4ed9-9a22-e420462f9406" />
 
-![alt text](image-43.png)
+
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
-
-![image-43](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/724ba449-4db6-4631-9339-80dec3f97217)
-
+<img width="413" height="148" alt="image" src="https://github.com/user-attachments/assets/e8d0c222-5608-465d-8040-7e6ccf41339c" />
 
 cat < urllist.txt
 ```
@@ -405,52 +401,47 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+<img width="415" height="68" alt="image" src="https://github.com/user-attachments/assets/d405088a-8371-48b8-9de9-5dbb75a05e5c" />
 
-![image-44](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/6f2cfae7-a399-46ab-bef0-dbdb43a9827f)
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+<img width="426" height="71" alt="image" src="https://github.com/user-attachments/assets/1b086b49-596c-40e5-a0a6-199444d78ab0" />
 
-![image-46](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/ceadf916-c72c-4bcc-874b-2dc7ca9cc011)
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
 
-![image-47](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/ade6e389-88d9-4e18-a2b5-9cad8eeab035)
-
 
 mkdir backupdir
  
 mv backup.tar backupdir
+
+cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
-
-![image-48](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/5bb41cc5-eb5a-4406-868d-b04a5929d057)
+<img width="217" height="50" alt="image" src="https://github.com/user-attachments/assets/c7f9879e-e44c-4bd5-9a1a-e8a2a687bf02" />
 
 
 tar -xvf backup.tar
 ## OUTPUT
-
-![image-49](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/7f0eb601-551f-47f1-8e00-eec94af72a6a)
-
+<img width="217" height="50" alt="image" src="https://github.com/user-attachments/assets/5832d48d-3398-4ebc-8b60-7e407d3b8df7" />
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
-![image-50](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/493fb6bd-f365-4e5b-9f33-3bb16e4fa822)
+ <img width="432" height="87" alt="image" src="https://github.com/user-attachments/assets/d6c777eb-d083-4e58-a152-438b6a019c2a" />
 
- 
 gunzip backup.tar.gz
 ## OUTPUT
 
-![image-51](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/a4c005dd-16b7-405e-a90d-f776c67834c0)
+ <img width="431" height="126" alt="image" src="https://github.com/user-attachments/assets/81e33c1d-16bc-4d69-9a99-993e8acf833e" />
 
- 
 # Shell Script
 ```
 echo '#!/bin/sh' > my-script.sh
@@ -460,10 +451,8 @@ chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
 
-![image-52](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/54d1032c-fc93-4b9c-a049-81f72d2e7fd3)
+ <img width="434" height="176" alt="image" src="https://github.com/user-attachments/assets/e6a80043-094b-412b-b26a-34ac5df16a17" />
 
-
- 
 cat << stop > herecheck.txt
 ```
 hello in this world
@@ -474,8 +463,6 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
-
-![image-53](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/b0f6d3ac-1aab-401d-a68f-fac5190af59d)
 
 
 cat < scriptest.sh 
@@ -514,31 +501,29 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
-
-![image-54](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/aa9e221b-1914-41c6-96a4-a3480fcc931c)
+<img width="321" height="247" alt="image" src="https://github.com/user-attachments/assets/8cf83edc-a5b9-409e-b57c-6161ab6d2e9e" />
 
  
 ls file1
 ## OUTPUT
-![image-54](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/7aa3c8d8-08cf-4789-be3e-8eb056aec0c6)
+<img width="199" height="34" alt="image" src="https://github.com/user-attachments/assets/9049982a-38e4-4e71-bf0c-0584b0537a47" />
 
 echo $?
 ## OUTPUT 
-
-![image-56](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/b392932f-12c9-47bf-9d86-fb44457adb34)
-
+<img width="205" height="38" alt="image" src="https://github.com/user-attachments/assets/f0399863-fa38-46ab-8376-29c92946d640" />
 
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+ <img width="188" height="41" alt="image" src="https://github.com/user-attachments/assets/9d070e93-32ad-4aed-b08e-ad2763bbbd0e" />
+
 abcd
  
 echo $?
  ## OUTPUT
-![image-57](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/6cac1aec-beb9-4683-91ba-2a6e062a4fd3)
+<img width="362" height="164" alt="image" src="https://github.com/user-attachments/assets/89eab212-c7d7-4597-9d8f-f1c6fcd68b91" />
 
 
  
@@ -572,7 +557,7 @@ fi
 ```
 ##OUTPUT
 
-![image-58](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/f8e710dd-372f-4b4c-9db1-efd9aa88e581)
+<img width="367" height="185" alt="image" src="https://github.com/user-attachments/assets/d3f57539-af0a-4af2-a265-5ccf4df89b20" />
 
 
 chmod 755 strcomp.sh
@@ -580,7 +565,7 @@ chmod 755 strcomp.sh
 ./strcomp.sh 
 ## OUTPUT
 
-![image-59](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/23f2ccf2-f9e4-4dff-98fc-0b3812c642a5)
+<img width="433" height="182" alt="image" src="https://github.com/user-attachments/assets/0ab778a2-5bc3-43df-bf06-8a0126d2e23a" />
 
 # check file ownership
 cat < psswdperm.sh 
@@ -607,8 +592,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
-
-![image-60](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/3a6c2ae0-7cf8-4ca0-8eb5-e174e8a1622e)
+<img width="429" height="132" alt="image" src="https://github.com/user-attachments/assets/882d8b0f-c3e4-4ad6-9b82-8c3419399f7b" />
 
 
 # check if with file location
@@ -656,7 +640,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
-![image-61](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/7d9c90af-b7a3-4cf6-8965-40370727248e)
+<img width="393" height="303" alt="image" src="https://github.com/user-attachments/assets/aa23a5af-8e1f-4c1f-a638-7b47f60d56a3" />
 
 
 
@@ -701,9 +685,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
-![image-62](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/f0646e68-4bbe-4c0e-bf34-7212526995d8)
-
-
+<img width="413" height="360" alt="image" src="https://github.com/user-attachments/assets/dcfa1ff5-a241-466e-86cf-efca79558cda" />
 
 # check if a file
 cat > ifnested.sh 
@@ -753,9 +735,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
-
-![image-63](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/446feb99-72a9-496c-b9ac-42f9b0e0c6b6)
-
+<img width="423" height="366" alt="image" src="https://github.com/user-attachments/assets/f592f502-bd13-4674-bd31-b0b287224cd6" />
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -784,8 +764,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
-
-![image-64](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/a2ca4461-3b62-41b0-afa0-eb9523ebc501)
+<img width="416" height="357" alt="image" src="https://github.com/user-attachments/assets/de3437cf-06f7-4fcb-b9bf-33d275619e58" />
 
 
 # testing compound comparisons
@@ -802,9 +781,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
-
-![image-65](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/8d68fc65-0b14-4777-af74-cefbc365c662)
-
+<img width="380" height="191" alt="image" src="https://github.com/user-attachments/assets/add83a81-d6e5-4dd6-99c5-d908b96855b8" />
 
 # using the case command
 cat >casecheck.sh 
@@ -824,12 +801,7 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- ## output
-
-![image-66](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/bf4deead-473f-4b07-b440-bc1e6c3759dd)
-
-
-
+ 
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -845,10 +817,6 @@ $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
  
- ## OUTPUT
-
-![image-67](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/bacb7046-9079-489a-acff-43e650c8135d)
-
  
 cat untiltest.sh 
 ```bash
@@ -862,12 +830,7 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  
-
-## OUTPUT
-
-
-![image-68](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/34e7fcfa-aa6b-4a1b-a82c-a81ab7997f53)
-
+ 
  
 cat forin1.sh 
 ```bash
@@ -881,10 +844,6 @@ done
  
 $ chmod 755 forin1.sh
  
- ## output:
-
-![image-69](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/33272df2-f5b8-4bda-99f5-5a048690600c)
-
  
 cat forin2.sh 
 ```bash
@@ -896,17 +855,21 @@ echo “word:$test”
 done
  ```
  
-
+$ chmod 755 forin2.sh
+ 
+cat forin2.sh 
+```bash
+\#!/bin/bash
+\# another example of how not to use the for command
+for test in I don't know if this'll work
+do
+echo “word:$test”
+done
+```
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
  
- ## output
-
-![image-70](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/c51da2ea-8652-49c3-a893-f64acc51d52d)
-
-
-
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -917,16 +880,46 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
+ 
+cat forin1.sh 
+```bash
+#!/bin/bash
+# basic for command
+for test in Alabama Alaska Arizona Arkansas California Colorado
+do
+echo The next state is $test
+done
+```
+$ chmod 755 forin1.sh
 
-##output
+## OUTPUT
+<img width="358" height="117" alt="image" src="https://github.com/user-attachments/assets/0686eb7a-d808-4d44-b493-334309404052" />
 
-![image-71](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/ef2f1f17-feed-4357-a5a0-e63e33ea14be)
+cat forinfile.sh 
+```bash
+#!/bin/bash
+# reading values from a file
+file="cities"
+for state in `cat $file`
+do
+echo "Visit beautiful $file“
+done
+```
+$ chmod 777 forinfile.sh
+$ cat cities
+Hyderabad
+Alampur
+Basara
+Warangal
+Adilabad
+Bhadrachalam
+Khammam
 
-
+## OUTPUT
+<img width="316" height="150" alt="image" src="https://github.com/user-attachments/assets/a83dc7ec-f22f-40a0-82c0-5fb53f451b79" />
 
 
 cat forctype.sh 
-
 ```bash
 #!/bin/bash
 # testing the C-style for loop
@@ -938,9 +931,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
-
-![image-72](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/3b304910-6ecf-4fa3-85ea-6dec124f087e)
-
+<img width="289" height="158" alt="image" src="https://github.com/user-attachments/assets/fcc69430-01ce-4ef6-9d28-e11621350a7a" />
 
 cat forctype1.sh 
 ```bash
@@ -954,9 +945,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
-
-![image-73](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/0a482550-5b9e-4ff8-9e33-54dc8ffa77a5)
-
+<img width="432" height="166" alt="image" src="https://github.com/user-attachments/assets/944b13e9-dea3-4223-ba07-2013f28d8588" />
 
 cat fornested1.sh 
 ```bash
@@ -975,9 +964,9 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
-![image-74](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/d60ca9a2-6750-4f0e-bd8a-bad4b996fbce)
+<img width="430" height="162" alt="image" src="https://github.com/user-attachments/assets/57e69546-b43a-4d7f-af44-8dc77e52e15f" />
 
-
+ 
 cat forbreak.sh 
 ```bash
 #!/bin/bash
@@ -992,19 +981,14 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-
-
+## OUTPUT
+<img width="431" height="164" alt="image" src="https://github.com/user-attachments/assets/226e5414-56eb-4213-bb0c-a889b777a216" />
 
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
  
-## OUTPUT
-
-![image-75](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/978f2ab3-ba04-442a-b668-62aa2450402e)
-
-
-cat forcontinue.sh 
+cat forbreak.sh 
 ```bash
 #!/bin/bash
 # breaking out of a for loop
@@ -1024,10 +1008,8 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
+ <img width="424" height="167" alt="image" src="https://github.com/user-attachments/assets/d4b7555e-4601-4f55-8801-76ce44326752" />
 
-![image-76](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/cd016d47-b62c-4697-8211-2ccbb4e91301)
-
- 
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -1041,7 +1023,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
-![image-77](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/25960989-f3d5-4a74-9eeb-ad4e77ea6755)
+<img width="338" height="107" alt="image" src="https://github.com/user-attachments/assets/24635a83-8955-46c5-87f5-0bc1f286e298" />
 
 
  cat exread1.sh
@@ -1052,13 +1034,13 @@ read -p "Enter your name: " name
 echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
-$ ./exread1.sh 
+
 ## OUTPUT
 
-![image-78](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/33663a39-1b90-46dc-a249-29cce8e18d43)
+<img width="377" height="79" alt="image" src="https://github.com/user-attachments/assets/b14064ba-3abd-4874-a3a6-7d4b48e6464c" />
 
 
-
+$ ./exread1.sh 
  
 cat funcex.sh
 ```bash
@@ -1076,16 +1058,12 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
-
  ./funcex.sh 
-![image-79](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/a353a7b2-7b6e-447f-99d8-eff19742bb64)
 
+ <img width="367" height="11" alt="image" src="https://github.com/user-attachments/assets/ff3cc2f7-bba7-4ba0-88d5-1117c667bf75" />
 
-
- 
  ./funcex.sh 1 2
- ## output:
-![image-80](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/c1b2d17b-036c-4d8b-b615-a4ae510d1db3)
+<img width="354" height="17" alt="image" src="https://github.com/user-attachments/assets/c05a183f-4a0e-491e-aa36-b40ec626abc7" />
 
  
 cat argshift.sh
@@ -1097,12 +1075,11 @@ cat argshift.sh
 done
 ```
 $ chmod 777 argshift.sh
-$ ./argshift.sh 1 2 3
+
 ## OUTPUT
+$ ./argshift.sh 1 2 3
+ <img width="134" height="35" alt="image" src="https://github.com/user-attachments/assets/f9dc44f7-50c1-4fe2-bab3-0bb92d6d4052" />
 
-![image-81](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/dc93f107-da58-4069-8676-fa8001a53772)
-
- 
  cat argshift1.sh
 ```bash
  #/bin/bash 
@@ -1118,10 +1095,9 @@ done
 ```
 $ chmod 777 argshift.sh
 ## OUTPUT
+<img width="73" height="38" alt="image" src="https://github.com/user-attachments/assets/3ba424fc-786a-4832-9872-b1878c8728bf" />
+
 $ ./argshift.sh 1 2 3
-
-![image-82](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/e260570a-740d-40d6-b3d0-650cf1e0bfe6)
-
  
 cat argshift.sh
 ```bash
@@ -1135,7 +1111,7 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
-![image-85 (copy)](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/22c9f9e9-ae69-4152-9768-0122fe2f2a21)
+ <img width="350" height="209" alt="image" src="https://github.com/user-attachments/assets/38f18d40-5bcb-49cd-8e5b-6e49c74d0281" />
 
  
 cat > nc.awk
@@ -1167,9 +1143,7 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
-![image-84](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/538413e2-0bfb-498f-bd90-181bb3e71a69)
-
+ <img width="267" height="136" alt="image" src="https://github.com/user-attachments/assets/b469381b-9a80-4c30-9f55-c8666cda3403" />
 
 cat > palindrome.sh
 ```bash
@@ -1197,8 +1171,7 @@ else
 fi
 ```
 ## OUTPUT 
-
-![image-86](https://github.com/HIRU-VIRU/OS-Linux-commands-Shell-script/assets/145972122/736ba1b8-9102-4b04-bf53-666e03ad5961)
+<img width="210" height="44" alt="image" src="https://github.com/user-attachments/assets/c9f46fd6-1c5a-4415-97db-706098faa554" />
 
 
 # RESULT:
